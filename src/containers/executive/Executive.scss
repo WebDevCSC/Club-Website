@@ -1,0 +1,44 @@
+.executive {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  width: 100%;
+  @media screen and (max-width: 720px) {
+    flex-direction: column;
+    // padding-top: 0rem;
+  }
+}
+
+.executive-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @media screen and (max-width: 720px) {
+    img {
+      height: auto;
+      width: 100%;
+    }
+  }
+}
+
+.executive-team {
+  padding-top: 5rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+
+  div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 0px;
+  }
+}
+
+.hello {
+  margin: 3rem;
+  @media screen and (max-width: 720px) {
+    margin: 0rem;
+    margin-bottom: 1rem;
+  }
+}

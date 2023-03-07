@@ -1,0 +1,33 @@
+.team__head {
+  display: flex;
+  flex-direction: column;
+  justify-content: centre;
+  align-items: center;
+  height: 50%;
+  width: 100%;
+
+  @media screen and (max-width: 720px) {
+    height: 100%;
+    padding-top: 5rem;
+  }
+
+  div {
+    margin-top: 8rem;
+    width: 55%;
+
+    @media screen and (max-width: 720px) {
+      margin-top: 1rem;
+      width: 70%;
+    }
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    @media screen and (max-width: 720px) {
+      margin: 0;
+      width: 18rem;
+      height: 6rem;
+    }
+  }
+}
