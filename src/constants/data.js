@@ -2,14 +2,14 @@
 import images from "./images";
 
 const facultyCoordinator = [
-  {
-    name: "Saket Acharya",
-    post: "Assistant Professor in Department of CSE",
-    linkedin: "https://www.linkedin.com/in/saket-acharya-3b368854/",
-    website:
-      "https://jaipur.manipal.edu/muj/academics/institution-list/foe/schools-faculty/faculty-list/Saket-Acharya.html",
-    imgUrl: images.acharya,
-  },
+  // {
+  //   name: "Saket Acharya",
+  //   post: "Assistant Professor in Department of CSE",
+  //   linkedin: "https://www.linkedin.com/in/saket-acharya-3b368854/",
+  //   website:
+  //     "https://jaipur.manipal.edu/muj/academics/institution-list/foe/schools-faculty/faculty-list/Saket-Acharya.html",
+  //   imgUrl: images.acharya,
+  // },
   {
     name: "Dr. Roheet Bhatnagar",
     post: "Directorate of Research",
@@ -30,12 +30,12 @@ const facultyCoordinator = [
 
 const dsw = [
   {
-    name: "Dr. Arun Kumar Poonia",
+    name: "Dr. Sanchit Anand",
     post: "Assistant Director, Directorate of Student's Welfare",
-    linkedin: "https://www.linkedin.com/in/dr-arun-kumar-poonia-634b6513/",
+    linkedin: "https://www.linkedin.com/in/dr-sanchit-anand-4a9112105/",
     website:
       "https://jaipur.manipal.edu/foa/schools-faculty/faculty-list/Arun-Kumar-Poonia.html",
-    imgUrl: images.pooniya,
+    imgUrl: images.sanchit,
   },
 ];
 

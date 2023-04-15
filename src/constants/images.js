@@ -3,6 +3,7 @@ import acharya from "../assets/Team/FacultyCoordinator/SaketAcharya.jpg";
 import rawat from "../assets/Team/FacultyCoordinator/DrUmashankarRawat.jpg";
 import bhatnagar from "../assets/Team/FacultyCoordinator/DrRohitBhatnagar.jpg";
 import pooniya from "../assets/Team/DSW/ArunKumarPooniya.jpg";
+import sanchit from "../assets/Team/DSW/SanchitAnand.jpg"
 import tushar from "../assets/Team/Executive/Tushar.jpg";
 import aryan from "../assets/Team/Executive/Aryan.jpg";
 import aditya from "../assets/Team/Executive/Aditya.jpg";
@@ -27,11 +28,13 @@ import lovish from "../assets/Team/DeputyCore/Lovish.jpg";
 import utkarsh from "../assets/Team/DeputyCore/Utkarsh.jpg";
 import vidhanshi from "../assets/Team/DeputyCore/Vidhanshi.jpg";
 
+
 export default {
   acharya,
   rawat,
   bhatnagar,
   pooniya,
+  sanchit,
   tushar,
   aryan,
   homedeep,
