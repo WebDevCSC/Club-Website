@@ -34,7 +34,7 @@ const dsw = [
     post: "Assistant Director, Directorate of Student's Welfare",
     linkedin: "https://www.linkedin.com/in/dr-sanchit-anand-4a9112105/",
     website:
-      "https://jaipur.manipal.edu/foa/schools-faculty/faculty-list/Arun-Kumar-Poonia.html",
+      "https://jaipur.manipal.edu/muj/academics/institution-list/foe/schools-faculty/faculty-list/Sanchit-Anand.html",
     imgUrl: images.sanchit,
   },
 ];
