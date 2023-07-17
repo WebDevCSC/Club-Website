@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #f3f3f3;
+}
+
+h1 {
+    margin-top: 8rem;
+}
+
+#main {
+    background: #000;
+    top: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+}
+
+.topTwo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.all {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
