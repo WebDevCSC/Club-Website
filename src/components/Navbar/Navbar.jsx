@@ -41,10 +41,10 @@ const Navbar = () => {
           </a>
         </li>
         <li className="app__flex p-text" key={`newsletter`}>
-          <a href={newsletterLink} target="_blank" rel="noreferrer">
+          <Link to="/newsletter">
             newsletter
             <div />
-          </a>
+          </Link>
         </li>
         <li className="app__flex p-text" key={`events`}>
           <Link to="/team">

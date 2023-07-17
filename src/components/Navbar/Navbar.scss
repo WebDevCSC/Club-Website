@@ -1,6 +1,6 @@
 .app__navbar {
   width: 100%;
-
+  top: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -76,10 +76,8 @@
     &:hover {
       div {
         background: #ff8c32;
-        -webkit-animation: scale-up-hor-center 0.4s
-          cubic-bezier(0.39, 0.575, 0.565, 1) both;
-        animation: scale-up-hor-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1)
-          both;
+        -webkit-animation: scale-up-hor-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+        animation: scale-up-hor-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
       }
 
       @-webkit-keyframes scale-up-hor-center {
@@ -87,16 +85,19 @@
           -webkit-transform: scaleX(0.4);
           transform: scaleX(0.4);
         }
+
         100% {
           -webkit-transform: scaleX(1);
           transform: scaleX(1);
         }
       }
+
       @keyframes scale-up-hor-center {
         0% {
           -webkit-transform: scaleX(0.4);
           transform: scaleX(0.4);
         }
+
         100% {
           -webkit-transform: scaleX(1);
           transform: scaleX(1);
