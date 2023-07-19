@@ -1,17 +1,22 @@
 import React from 'react'
 import "./NewsletterCard.css"
 import cs from "../../assets/cscmuj.gif";
+import { Link } from 'react-router-dom';
 
 
-const NewsletterCard = () => {
+const NewsletterCard = ({ title, date, description, nlink }) => {
     return (
         <>
+
             <div className="card">
                 <img src={cs} alt="" />
-                <h3>Newsletter Name/Heading</h3>
+                <h3>{title}</h3>
                 {/* use slice when states */}
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quibusdam excepturi beatae dicta totam sapiente suscipit minima voluptatibus commodi exercitationem repudiandae ab vel eaque vero, dolore rerum neque nisi quasi.</p>
+                <p>{date}</p>
+                <p>{description}</p>
+                <a href={nlink}>Read more</a>
             </div>
+
         </>
     )
 }

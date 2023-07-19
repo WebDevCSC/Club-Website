@@ -26,3 +26,7 @@ h1 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
+
+.newsletter-card {
+    color: #f3f3f3;
+}
