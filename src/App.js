@@ -6,6 +6,7 @@ import "./App.css";
 import Home from "./views/Home/Home";
 import Team from "./views/Team/Team";
 import ScrollToTop from "./ScrollToTop";
+import NewsletterDisplay from "./views/Newsletter/NewsletterDisplay";
 
 const App = () => (
   <div>
@@ -14,6 +15,7 @@ const App = () => (
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
         <Route path="/team" element={<Team />} />
+        <Route path="/newsletter" element={<NewsletterDisplay />} />
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
     </ScrollToTop>

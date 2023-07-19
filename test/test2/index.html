@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <img id="anchor" src="./WhatsApp Image 2023-07-10 at 12.51.34 PM.jpeg" alt="">
+    <div id="eyes">
+        <img src="./Frame 1.png" alt="" class="eye">
+    </div>
+    <script>
+        document.addEventListener('mousemove', (e) => {
+            // console.log(e);
+
+            const mouseX = e.clientX;
+            const mouseY = e.clientY;
+
+            const anchor = document.getElementById('anchor')
+            const rekt = anchor.getBoundingClientRect();
+            const anchorX = rekt.left + rekt.width / 2;
+            const anchorY = rekt.top + rekt.height / 2;
+
+            const angleDeg = angle(mouseX, mouseY, anchorX, anchorY);
+
+            // console.log(angleDeg)
+
+            const eyes = document.querySelectorAll('.eye')
+            eyes.forEach(eye => {
+                eye.style.transform = `rotate(${90 + angleDeg}deg)`
+            })
+        })
+
+        function angle(cx, cy, ex, ey) {
+            const dy = ey - cy;
+            const dx = ex - cx;
+            const rad = Math.atan2(dy, dx);
+            const deg = rad * 180 / Math.PI;
+            return deg;
+        }
+    </script>
+</body>
+
+</html>

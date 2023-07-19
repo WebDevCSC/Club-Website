@@ -5,7 +5,7 @@
   align-items: center;
   min-height: 100vh;
   width: 100%;
-  padding-top: 5rem;
+  padding-top: 15vh;
 
   @media screen and (max-width: 1500px) {
     background-size: 23rem 23rem;
@@ -50,6 +50,7 @@
 
   .header-text {
     text-align: center;
+
     h1 {
       display: inline;
       font-size: 2rem;
@@ -67,6 +68,7 @@
       font-size: 2rem;
       font-weight: 600;
       color: #fff;
+
       @media screen and (max-width: 550px) {
         font-size: 1.5rem;
       }
@@ -124,9 +126,11 @@
       0% {
         transform: scale(1);
       }
+
       70% {
         transform: scale(0.9);
       }
+
       100% {
         transform: scale(1);
       }

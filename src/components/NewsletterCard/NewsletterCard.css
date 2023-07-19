@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #0e0e0e;
+}
+
+img {
+    height: 12rem;
+    width: 12rem;
+}
+
+.card {
+    background-color: #f3f3f3;
+    color: #0e0e0e;
+    padding: 12px;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    margin: 12px;
+    border-radius: 9px;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+p {
+    color: #0e0e0e;
+    font-size: 1.2rem;
+}
