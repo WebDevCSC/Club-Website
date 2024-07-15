@@ -19,14 +19,6 @@ const Footer = () => {
           <h1>Contact Us</h1>
         </div>
         <div>
-          <p>+91-9988013355</p>
-          <h2>Homedeep Singh Saggu</h2>
-        </div>
-        <div>
-          <p>+91-9818622192</p>
-          <h2>Sayantan Mondal</h2>
-        </div>
-        <div>
           <p>cyberspacemuj@gmail.com</p>
         </div>
       </div>
