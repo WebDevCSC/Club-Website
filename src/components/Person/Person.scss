@@ -1,0 +1,89 @@
+.team__person {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  margin-right: 2rem;
+  @media screen and (max-width: 720px) {
+    flex-direction: row;
+    padding-top: 0rem;
+    margin-right: 0rem;
+  }
+
+  p {
+    color: white;
+    text-align: center;
+  }
+
+  img {
+    width: 100%;
+    border-radius: 51%;
+    @media screen and (max-width: 720px) {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  svg {
+    cursor: pointer;
+  }
+
+  a {
+    cursor: pointer;
+  }
+}
+
+.person__info {
+  display: flex;
+  flex-direction: column;
+  @media screen and (max-width: 720px) {
+    margin-left: 0.5rem;
+  }
+}
+
+.person__image {
+  width: 12.8rem;
+  @media screen and (max-width: 720px) {
+    width: 10rem;
+  }
+}
+
+.person__name {
+  margin-top: 0.7rem;
+
+  p {
+    font-size: 1.3rem;
+    @media screen and (max-width: 720px) {
+      font-size: 1rem;
+    }
+  }
+}
+
+.person__post {
+  margin-top: 1rem;
+  width: 100%;
+
+  p {
+    font-size: 1.3rem;
+    @media screen and (max-width: 720px) {
+      font-size: 1rem;
+    }
+  }
+}
+
+.person__social {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  img {
+    width: 100%;
+    cursor: pointer;
+  }
+
+  svg {
+    margin-right: 1rem;
+  }
+}

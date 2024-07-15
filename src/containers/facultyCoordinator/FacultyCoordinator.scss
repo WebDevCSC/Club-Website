@@ -1,0 +1,52 @@
+.team__faculty {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  @media screen and (max-width: 720px) {
+    flex-direction: column;
+    padding-top: 0rem;
+  }
+
+  .team__faculty-logo {
+    margin-right: 4rem;
+    display: flex;
+    justify-content: flex-start;
+    flex: 2;
+    @media screen and (max-width: 720px) {
+      display: none;
+    }
+  }
+
+  .img {
+    height: 10rem;
+  }
+}
+
+.team__faculty-logo-mobile {
+  display: none;
+  @media screen and (max-width: 720px) {
+    display: block;
+    img {
+      height: 10rem;
+      width: 100%;
+    }
+  }
+}
+
+.team__faculty-all {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+  div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 0px;
+  }
+}
