@@ -1,0 +1,32 @@
+.core {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  width: 100%;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @media screen and (max-width: 720px) {
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}
+
+.core-team {
+  padding-top: 5rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+
+  div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 0px;
+  }
+}
