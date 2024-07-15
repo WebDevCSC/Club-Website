@@ -18,7 +18,10 @@ const Team = () => (
     <div className="header-background">
       <Navbar />
       <BehindTheScene />
-      <FacultyCoordinator />
+      <div className="team-expired-info">
+        Please visit Instagram page for latest team updates
+      </div>
+      {/* <FacultyCoordinator />
       <div className="pageSeperator" />
       <DSW />
       <div className="pageSeperator" />
@@ -27,7 +30,7 @@ const Team = () => (
       <Core />
       <div className="pageSeperator" />
       <DeputyCore />
-      <div className="pageSeperator" />
+      <div className="pageSeperator" /> */}
       <Footer />
     </div>
   </div>
