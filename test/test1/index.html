@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eye move test
+    </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <img src="./WhatsApp Image 2023-07-10 at 12.51.34 PM.jpeg" alt="">
+    <div class="box">
+        <div class="eye"></div>
+    </div>
+    <script>
+        document.querySelector('body').addEventListener('mousemove', eyeball);
+        function eyeball() {
+            const eye = document.querySelectorAll('.eye');
+            eye.forEach((eye) => {
+                let x = (eye.getBoundingClientRect().left) + (eye.clientWidth / 2);
+                let y = (eye.getBoundingClientRect().top) + (eye.clientWidth / 2);
+
+                let radian = Math.atan2(event.pageX - x, event.pageY - y);
+                let rotation = (radian * (180 / Math.PI) * -1) + 270;
+                eye.style.transform = "rotate(" + rotation + "deg)"
+            })
+        }
+    </script>
+</body>
+
+</html>
